@@ -122,7 +122,7 @@ export default function ContactForm() {
                       <FormLabel>Name</FormLabel>
                       <FormControl>
                         <Input
-                          placeholder="John Doe"
+                          placeholder="Your Name"
                           {...field}
                           className="border-primary/20 focus-visible:ring-primary"
                         />
@@ -142,7 +142,7 @@ export default function ContactForm() {
                       <FormLabel>Email</FormLabel>
                       <FormControl>
                         <Input
-                          placeholder="john.doe@example.com"
+                          placeholder="Your Email"
                           {...field}
                           className="border-primary/20 focus-visible:ring-primary"
                         />
@@ -162,7 +162,7 @@ export default function ContactForm() {
                       <FormLabel>Company</FormLabel>
                       <FormControl>
                         <Input
-                          placeholder="Acme Inc."
+                          placeholder="Enter Your Company Name"
                           {...field}
                           className="border-primary/20 focus-visible:ring-primary"
                         />
