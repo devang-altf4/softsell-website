@@ -66,10 +66,13 @@ export default function Hero() {
           >
             <div className="relative h-[300px] w-[300px] sm:h-[400px] sm:w-[400px] lg:h-[500px] lg:w-[500px]">
               <div className="absolute inset-0 rounded-full bg-gradient-to-r from-primary via-secondary to-accent opacity-20 blur-3xl animate-pulse"></div>
-              <div className="absolute inset-10 rounded-full bg-gradient-to-br from-background to-muted flex items-center justify-center shadow-xl">
-                <div className="text-4xl font-bold bg-gradient-to-r from-primary to-secondary-foreground bg-clip-text text-transparent">
-                  SoftSell
-                </div>
+              <div className="absolute inset-10 rounded-full bg-gradient-to-br from-background to-muted flex items-center justify-center shadow-xl overflow-hidden">
+                <img
+                  src="/Softcell-logo.png"
+                  alt="SoftSell Logo"
+                  className="w-full h-full object-cover"
+                  style={{ filter: "drop-shadow(0 2px 16px rgba(80,80,120,0.15))" }}
+                />
               </div>
             </div>
           </motion.div>
