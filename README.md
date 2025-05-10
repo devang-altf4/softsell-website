@@ -36,6 +36,7 @@
 - **UI component development:** ~2-3 hours
 - **Feature integration (forms, charts, carousel, theming):** ~3 hours
 - **Testing, polish, and documentation:** ~1 hour
+- **Ai chatbot server is down so hardcode if i am selected ill add it with premium**
 - **Total:** ~8-9 hours
 
 ## Getting Started
