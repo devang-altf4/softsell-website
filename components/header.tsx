@@ -40,12 +40,14 @@ export default function Header() {
           transition={{ duration: 0.5 }}
           className="flex items-center gap-2 font-bold text-xl"
         >
-          <div className="h-10 w-10 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-primary-foreground shadow-md">
-            <span className="text-lg font-bold">S</span>
-          </div>
-          <span className="font-bold bg-gradient-to-r from-primary to-secondary-foreground bg-clip-text text-transparent">
-            SoftSell
-          </span>
+          <Link href="/" className="flex items-center gap-2">
+            <div className="h-10 w-10 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-primary-foreground shadow-md">
+              <span className="text-lg font-bold">S</span>
+            </div>
+            <span className="font-bold bg-gradient-to-r from-primary to-secondary-foreground bg-clip-text text-transparent">
+              SoftSell
+            </span>
+          </Link>
         </motion.div>
 
         <motion.nav className="hidden md:flex gap-8" variants={navVariants} initial="hidden" animate="visible">
