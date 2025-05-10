@@ -41,8 +41,12 @@ export default function Header() {
           className="flex items-center gap-2 font-bold text-xl"
         >
           <Link href="/" className="flex items-center gap-2">
-            <div className="h-10 w-10 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-primary-foreground shadow-md">
-              <span className="text-lg font-bold">S</span>
+            <div className="h-10 w-10 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-primary-foreground shadow-md overflow-hidden">
+              <img
+                src="/softcell-logo.png"
+                alt="SoftSell Logo"
+                className="h-10 w-10 object-contain"
+              />
             </div>
             <span className="font-bold bg-gradient-to-r from-primary to-secondary-foreground bg-clip-text text-transparent">
               SoftSell
