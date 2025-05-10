@@ -45,7 +45,7 @@ export default function Header() {
               <img
                 src="/softcell-logo.png"
                 alt="SoftSell Logo"
-                className="h-10 w-10 object-contain"
+                className="h-full w-full object-contain"
               />
             </div>
             <span className="font-bold bg-gradient-to-r from-primary to-secondary-foreground bg-clip-text text-transparent">
